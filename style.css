@@ -1,0 +1,53 @@
+#board {
+    cursor: pointer; 
+    padding: 3em;
+    text-align: center;
+    font-family: monospace;
+}
+
+.row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    font-size: 75px;
+    
+}
+
+.row {
+    margin: 0 auto;
+    width: 302px;
+    clear: both
+}
+
+.top {
+    border-bottom: 1px black solid;
+}
+
+.bottom {
+    border-top: 1px black solid;
+}
+
+.left {
+   border-right: 1px black solid;
+}
+
+.right {
+    border-left: 1px black solid;
+}
+
+#restart {
+    padding: 10px 20px;
+    background-color: var(--btn-bg);
+    border: none;
+    border-radius: 20px;
+    color: var(--bg);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  body {
+      background-color: rgba(223, 168, 106, 0.822);
+  }
